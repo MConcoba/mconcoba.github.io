@@ -1,0 +1,159 @@
+body{
+	color:#2e3436;
+	font-family:'K2D',sans-serif
+}
+
+.container-articles{
+	overflow-x:hidden;
+	overflow-y:scroll
+}
+
+	
+.container-main{
+	display:flex;
+}
+	
+.container-main .container-myself{
+	background:url("../image/Keyboard_Synthwave_562760_2560x1440.jpg") center/cover;
+	color:#fff;
+	height:100vh;
+	position:relative;
+	width:30%;
+	z-index:2;
+}
+	
+.container-main .container-myself:after{
+	background-color:#2e3436;
+	content:"";height:100%;
+	opacity:.5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter:alpha(opacity=50);
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:-1
+}
+	
+.container-main .container-articles{
+	display:flex;
+	flex-direction:column;
+	width:70%;
+	height:100vh
+}
+	
+.menu{
+	align-items:center;
+	display:flex;
+	justify-content:flex-end;
+	min-height:4.5rem;
+	margin-bottom:1rem;
+	width:100%;
+	z-index:1
+}
+	
+.menu-list{
+	display:flex;
+	margin:0;
+	padding:0
+}
+	
+.menu-list-link{
+	color:#2e3436;
+	font-size:.97rem;
+	text-transform:uppercase;
+	list-style-type:none;
+	text-decoration:none;
+	padding:.8rem 1rem;
+	position:relative;
+}
+	
+.menu-list-link:nth-child(n+0){
+	border-right:1px solid #dedede
+}
+	
+.menu-list-link:last-child{
+	border-right:0
+}
+	
+.menu-list-link:hover{
+	color:#4392f1;
+	-o-transition:0.5s ease all;
+	-ms-transition:0.5s ease all;
+	-webkit-transition:0.5s ease all;
+	-moz-transition:0.5s ease all;
+	transition:0.5s ease all
+}
+	
+.menu-list-link--active .menu-list-item{
+	color:#4392f1
+}
+	
+.menu-list-link .menu-list-item{
+	display:flex;
+	align-items:center;
+}
+
+.menu-list-link .menu-list-item .fa,.menu-list-link .menu-list-item .fab{
+	padding-right:.4rem
+}
+
+.myself-profile{
+	display:flex;
+	flex-flow:column wrap;
+	align-items:center;
+	justify-content:center;
+	flex:1 1 auto;
+	text-align:center
+}
+	
+.myself-name{
+	font-size:1.8rem;
+	text-shadow:1px 1px 15px #fff;
+	margin:.9rem 0 0;
+	font-weight:300
+
+}
+	
+.myself-description{
+	margin:0 0 .5rem
+}
+	
+.myself-footer{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+}
+	
+.myself-footer-by{
+	text-align:center;
+	font-size:.85rem;
+	letter-spacing:1px;
+	
+}
+
+.myself-footer-by p{
+	margin:.4rem 0
+}
+	
+.myself-footer-social{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	
+}
+	
+.myself-footer-social .myself-footer-link{
+	padding:0 .5rem;
+	color:#fff;
+	text-decoration:none;
+	font-size:1.6rem;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+	
+.myself-footer-social .myself-footer-link:hover{
+	color:#37474f
+}
