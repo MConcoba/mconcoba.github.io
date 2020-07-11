@@ -567,10 +567,12 @@ height:100%
 
 @media screen and (max-width: 1500px){
 	.myself-profile{ font-size: 0.9rem }
+	.container-main .container-articles{ width: 100% }
 }
 
 @media screen and (max-width: 1100px){
 	.welcome, .portfolio, .contact{ padding: 0 4rem }
+	.container-main .container-articles{ width: 100% }
 }
 
 @media screen and (max-width: 1050px){
@@ -582,6 +584,7 @@ height:100%
 		display: inline-block;
 		margin: 5px;
 	} 
+	.container-main .container-articles{ width: 100% }
 }
 
 @media screen and (max-width: 950px){
@@ -618,6 +621,7 @@ height:100%
 	}
 	.container-main{ flex-direction:  column }
 	.container-main .container-myself, .container-main, .container-articles{ width: 100% }
+	.container-main .container-articles{ width: 100% }
 	.container-articles{ display: none }
 	.welcome, .portfolio, .contact{
 		display: none;
@@ -644,7 +648,7 @@ height:100%
 	}
 	.myself-containe-menu{
 		background-color: #fff;
-		-webkit-box-shadow:2px 0 15px #333;
+		-webkit-box-shadow: 2px 0 15px #333;
 		box-shadow: 2px 0 15px #333;
 		display: block;
 		height: 100vh;
