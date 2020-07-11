@@ -552,3 +552,195 @@ height:100%
 .contact-issues:hover{
 	color:#0d6b70
 }
+
+@media screen and (min-width: 1500px){
+	body{ font-size: 24px }
+	.menu-list-link{ padding: 1.5rem 2rem }
+	.welcome, .portfolio, .contact{ padding: 0 8rem; margin: 3rem 0 }
+	.myself-footer-by{ font-size: 1.2rem }
+	.myself-footer-social .myself-footer-link{ font-size: 3rem }
+}
+
+@media screen and (max-width: 1500px){
+	.myself-profile{ font-size: 0.9rem }
+}
+
+@media screen and (max-width: 1100px){
+	.welcome, .portfolio, .contact{ padding: 0 4rem }
+}
+
+@media screen and (max-width: 1050px){
+	.myself-name{ font-size: 1.6rem }
+	.menu-list-link{ font-size: 085rem }
+	.portfolio-proyects-list li {
+		width: 50%;
+		height: 350px;
+		display: inline-block;
+		margin: 5px;
+	} 
+}
+
+@media screen and (max-width: 950px){
+	body{
+		overflow: hidden;
+		position: relative;
+	}
+	.blacketBody{
+		background: #2e3436;
+		display: none;
+		height: 100vh;
+		opacity: 0.4;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+		filter: alpha(opacity=40);
+		position: fixed;
+		top: 0;
+		width: 100vw;
+		z-index: 4;
+	}
+	.control-actions{
+		background-color: #119da4;
+		-webkit-box-shadow: 0 1px 7px  #454545;
+		box-shadow: 0 1px 7px #454545;
+		color: #fff;
+		height: 3.5rem;
+		top: 0;
+		position: absolute;
+		width: 100vw;
+		z-index: 9;
+	}
+	.control-actions-menu{
+		padding: 0.5rem 0.9rem;
+		font-size: 1.6rem;
+	}
+	.container-main{ flex-direction:  column }
+	.container-main .container-myself, .container-main, .container-articles{ width: 100% }
+	.container-articles{ display: none }
+	.welcome, .portfolio, .contact{
+		display: none;
+		margin-top: 3.6rem;
+	}
+	.menu{ display: none }
+	.myself{
+		display: relative;
+		border: none
+	}
+	.myself-container-photo{
+		width: 15rem;
+		height: 15rem;
+	}
+	.myself-name{ font-size: 2rem }
+	.myself-profile{ font-size: 1rem }
+	.myself-menu-action{ 
+		display: block;
+		position: absolute;
+		font-size: 1.6rem;
+		left: 0.9rem;
+		top: 1rem;
+		z-index: 1
+	}
+	.myself-containe-menu{
+		background-color: #fff;
+		-webkit-box-shadow:2px 0 15px #333;
+		box-shadow: 2px 0 15px #333;
+		display: block;
+		height: 100vh;
+		left: -100%;
+		position: fixed;
+		top: 0;
+		width: 40%;
+		z-index: 11
+	}
+	.myself-information{
+		background-color: #119da4;
+		display: flex;
+		align-items: center;
+		border-bottom: 1px solid #f5f0f6;
+		padding: 1.5rem 0.4rem;
+	}
+
+	.myself-data-container-photo{
+		margin: 0.5rem 0.5re 0 0;
+		height: 4rem;
+		width: 4rem;
+	}
+
+	.myself-data-photo{
+		background-image: url("../image/mconcoba22.jpg");
+		-webkit-background-sizw: contain;
+		-moz-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		border-radius: 50%;
+		width: 100%;
+		height: 100%
+	}
+	.myself-data-info{ color: #fff }
+	.myself-data-info-fullname, .myself-data-info-role{
+		margin: 0;
+		letter-spacing: 0.8px;
+	}
+	.myself-data-info-role{
+		color: #e3e3e3;
+		font-size: 0.8rem;
+	}
+	.myself-menu{
+		padding: 1.5rem 1rem;
+		margin: 0;
+	}
+	.myself-menu-item{
+		display: flex;
+		align-items: center;
+		font-size: 0.rem;
+	}
+	.myself-menu-link{
+		color: #545454;
+		display: block;
+		font-size: 1rem;
+		padding: 1rem 0;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	.myself-menu-link .fa-stack{
+		font-size: 0.9rem;
+		margin-right: 0.5rem;
+	}
+	.myself-menu-link--active{ 
+		color: #4392f1;
+		padding-right: 0.5rem;
+	}
+	.portfolio-proyects-list li {
+		width: 50%;
+		height: 350px;
+		display: inline-block;
+		margin: 5px;
+	} 
+	
+}
+
+@media secreen and (max-width: 700px){
+	.welcome-container-stack{ width: 100% }
+}
+
+@media screen and (max-width: 600px){
+	.myself-container-photo{ 
+		width:14rem;
+		height: 14rem;
+	}
+	.myself-name{ font-size:  1.7rem }
+	.myself-containe-menu{ width: 60% }
+}
+
+@media screen and (max-width: 450px){
+	.myself-containe-menu{ width: 70% }
+	.welcome, .portfolio, .contact{ padding: 0 2rem }
+	.welcome-stack{
+		align-items:flex-start;
+		flex-direction: column
+	}
+	.welcome-stack-title{
+		font-size: 1rem;
+		margin-bottom: 0.2rem;
+		padding-bottom: 0.2rem;
+	}
+}
