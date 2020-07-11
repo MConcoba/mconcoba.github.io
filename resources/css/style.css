@@ -282,7 +282,7 @@ body{
 	padding:0 6rem;
 }
 
-.welcome-title, .portfolio-title, .contact__title{
+.welcome-title, .portfolio-title, .contact-title{
 	font-family:'Rambla',monospace;
 	text-transform:uppercase;
 	letter-spacing:1px;
@@ -290,7 +290,7 @@ body{
 	margin-bottom:.5rem
 }
 	
-.welcome-description, .portfolio-description, .contact__description{
+.welcome-description, .portfolio-description, .contact-description{
 	margin:.5rem 0 0
 }
 
@@ -535,7 +535,7 @@ height:100%
 }
 
 .portfolio-proyect-info-back-img img{
-	width:25px;
+	width: 35px;
 	height:100%
 }
 
@@ -551,4 +551,21 @@ height:100%
 	text-shadow: 
 		0 0 1px rgb(0, 0, 0), 
 		0 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.contact{
+	flex-flow:column;
+	align-items:center;
+}
+		
+.contact-description{
+	margin-bottom:2rem
+}
+
+.contact-issues{
+	color:#4392f1;
+}
+
+.contact-issues:hover{
+	color:#0d6b70
 }
