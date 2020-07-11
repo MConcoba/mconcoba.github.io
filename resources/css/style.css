@@ -82,7 +82,7 @@ body{
 }
 	
 .myself-photo{
-	background-image:url("../image/john.jpg");
+	background-image:url("../image/mconcoba22.jpg");
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -95,68 +95,8 @@ body{
 	height:90%
 }
 	
-.myself-containe-menu,.myself-menu-action{
+.myself-containe-menu, .myself-menu-action{
 	display:none
-}
-	
-.myself-profile{
-	display:flex;
-	flex-flow:column wrap;
-	align-items:center;
-	justify-content:center;
-	flex:1 1 auto;
-	text-align:center
-}
-	
-.myself-name{
-	font-size:1.8rem;
-	text-shadow:1px 1px 15px #fff;
-	margin:.9rem 0 0;
-	font-weight:300
-}
-	
-.myself-description{
-	margin:0 0 .5rem
-}
-	
-.myself-footer{
-	display:flex;
-	flex-flow:row wrap;
-	justify-content:space-around;
-}
-	
-.myself-footer-by{
-	text-align:center;
-	font-size:.85rem;
-	letter-spacing:1px;
-	
-}
-
-.myself-footer-by p{
-	margin:.4rem 0
-}
-	
-.myself-footer-social{
-	display:flex;
-	justify-content:space-around;
-	align-items:center;
-	
-}
-	
-.myself-footer-social .myself-footer-link{
-	padding:0 .5rem;
-	color:#fff;
-	text-decoration:none;
-	font-size:1.6rem;
-	-o-transition:all 0.3s ease;
-	-ms-transition:all 0.3s ease;
-	-webkit-transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	transition:all 0.3s ease;
-}
-	
-.myself-footer-social .myself-footer-link:hover{
-	color:#37474f
 }
 	
 .menu{
@@ -213,6 +153,47 @@ body{
 
 .menu-list-link .menu-list-item .fa,.menu-list-link .menu-list-item .fab{
 	padding-right:.4rem
+}
+
+.myself{ 
+	display:flex;
+	flex-flow:column wrap;
+	height:100%;
+}
+	
+.myself-container-photo{
+	margin:0;
+	width:12rem;
+	height:12rem;
+	border:1.5px inset #4392f1;
+	border-radius:50%;
+}
+	
+.myself-photo{
+	background-image:url("../image/mconcoba22.jpg");
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	border:1.5px solid #4392f1;
+	border-radius:50%;
+	margin:5%;
+	width:90%;
+	height:90%
+}
+	
+.myself-containe-menu,.myself-menu-action{
+	display:none
+}
+	
+.myself-profile{
+	display:flex;
+	flex-flow:column wrap;
+	align-items:center;
+	justify-content:center;
+	flex:1 1 auto;
+	text-align:center
 }
 
 .myself-profile{
@@ -394,6 +375,7 @@ height:100%
 	-ms-perspective: 900px;
 	perspective: 900px;
 }
+
 .portfolio-proyect-info{
 	position: relative;
 	width: 100%;
@@ -404,6 +386,7 @@ height:100%
 	-ms-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
+
 .portfolio-proyect-info > div {
 	display: block;
 	position: absolute;
