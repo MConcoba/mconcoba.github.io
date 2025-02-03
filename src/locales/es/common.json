@@ -1,0 +1,129 @@
+{
+  "title": "Manuel Concoba",
+  "description": "Desarrollador Full-Sack de Guatemala, Especialista en desarrollo multiplataforma web y móvil, con experiencia en la creación de aplicaciones escalables, APIs robustas y manejo de bases de datos SQL y NoSQL. Apasionado por construir soluciones tecnológicas innovadoras y eficientes.",
+  "navbar": [
+    {
+      "label": "Inicio",
+      "href": "#top"
+    },
+    {
+      "label": "Experiencia",
+      "href": "#experiencia-laboral"
+    },
+    {
+      "label": "Proyectos",
+      "href": "#proyectos"
+    },
+    {
+      "label": "Sobre mí",
+      "href": "#sobre-mi"
+    }
+  ],
+  "hero": {
+    "job_availability": "¡Disponible para trabajar!",
+    "title": "¡Hola soy Manuel Concoba!",
+    "job_title": "<strong>Desarrollador Full-Stack</strong> de Guatemala.",
+    "description": "Especialista en desarrollo multiplataforma web y móvil, con experiencia en la creación de aplicaciones escalables, APIs robustas y manejo de bases de datos SQL y NoSQL. Apasionado por construir soluciones tecnológicas innovadoras y eficientes.",
+    "cta": "Contactame"
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "jobs": {
+      "jobs_title": ["Middle Developer", "Junior Developer", "Freelance"],
+      "jobs_description": [
+        {
+          "title": "Desarrollador de aplicaciones moviles y paginas",
+          "time": ["Nov 2023"],
+          "description": "Lidero y gestiono proyectos de desarrollo web y móvil, asegurando su entrega a tiempo y dentro del presupuesto. Dirigí un equipo de desarrolladores junior, brindando mentoría y soporte técnico para su crecimiento profesional. Además, supervisé el proceso de publicación de aplicaciones en iOS y Android, garantizando el cumplimiento de las normativas de cada plataforma.",
+          "list": [
+            "Diseño de sitios web",
+            "Optimización de sitios web",
+            "Desarrollo Movil (android / iOS)",
+            "Control de versiones"
+          ]
+        },
+        {
+          "title": "Desarrollador Web en Angular/Ionic",
+          "time": ["Nov 2020", "Nov 2023"],
+          "description": "Brindé soporte técnico gestionando y resolviendo tickets, optimizando tiempos de respuesta y mejorando la satisfacción del usuario. Realicé mantenimiento y actualizaciones de aplicaciones, corrigiendo errores y mejorando su rendimiento. Además, participé en el diseño y desarrollo de nuevas funcionalidades, asegurando el cumplimiento de los requisitos empresariales.",
+          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+        },
+        {
+          "title": "Desarrollador Front",
+          "time": ["Ene 2024"],
+          "description": "Diseño y desarrollo sitios web y aplicaciones móviles con enfoque en rendimiento, seguridad y experiencia de usuario. Como desarrollador freelance, optimizo plataformas digitales, mejorando su velocidad y usabilidad. Además, implemento soluciones escalables y eficientes, asegurando el cumplimiento de los objetivos del negocio.",
+          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "projects": [
+      {
+        "title": "Plantilla Angular Moderna",
+        "description": "Una plantilla moderna y responsive desarrollada en Angular, diseñada para agilizar la creación de aplicaciones web. Incluye componentes reutilizables, autenticación integrada y un diseño atractivo basado en Bootstrap. Desplegada en Firebase para demostrar su escalabilidad y facilidad de uso. \n Usuario: admin \n Contraseña: admin123",
+        "image": "/src/images/projects/template.png",
+        "techs": ["Angular", "Bootstrap", "CSS", "Firebase"],
+        "code": "Código",
+        "code_url": "https://github.com/MConcoba/Template-Angular",
+        "preview": "Vista previa",
+        "preview_url": "https://template-angular-lovat.vercel.app/authentication/side-login"
+      },
+      {
+        "title": "Cambios de Moneda",
+        "description": "Aplicación web desarrollada en Python con Dash para visualizar y calcular tasas de cambio en tiempo real. Permite a los usuarios comparar monedas y tomar decisiones informadas basadas en datos actualizados. Desplegada en Render para garantizar su disponibilidad y rendimiento.d",
+        "image": "/src/images/projects/exchanges-rates.png",
+        "techs": ["Python", "Dash", "JavaScript"],
+        "code": "Código",
+        "code_url": "https://github.com/MConcoba/Exchange-Rates-Web/tree/main",
+        "preview": "Vista previa",
+        "preview_url": "https://exchange-rates-web.onrender.com"
+      },
+      {
+        "title": "Aplicación Lector de Código de Barras",
+        "description": "Aplicación móvil desarrollada en Flutter para escanear y gestionar códigos de barras. Ideal para inventarios, seguimiento de productos o control de acceso. Incluye funcionalidades como almacenamiento local y una interfaz amigable para Android.",
+        "image": "/src/images/projects/locations-app.png",
+        "techs": ["Flutter", "Android"],
+        "code": "Código",
+        "code_url": "https://github.com/MConcoba/Ubicaciones-App-Handle",
+        "preview": "Vista previa",
+        "preview_url": "https://drive.google.com/file/d/1OMSVdGz3M2V7ucdVMXh3vnU7siSE9CWw/view?usp=sharing"
+      }
+    ]
+  },
+  "contributions": {
+    "title": "Contribuciones",
+    "contributions": [
+      {
+        "src": "/src/images/contributions/devmanual.png",
+        "alt": "DevManualGT",
+        "title": "Canal de Youtube",
+        "description": "Canal con cursos de programación básica en español, donde explico conceptos fundamentales y desarrollo proyectos prácticos utilizando diversas tecnologías.",
+        "techs": ["NodeJS", "MongoDB", "Postgres", "Angular", "CSS", "SASS"],
+        "repo": "https://www.youtube.com/@devmanualgt",
+        "repo_label": "Link",
+        "commits": "#"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Soy un Desarrollador Full-Stack",
+    "description": "Especializado en desarrollo multiplataforma web y móvil con tecnologías como Flutter, TypeScript/JavaScript (Angular, React, Node.js) y Python. Tengo experiencia en la creación de aplicaciones escalables, APIs robustas y manejo de bases de datos SQL y NoSQL. Me apasiona construir soluciones tecnológicas innovadoras que resuelvan problemas reales y mejoren la vida de las personas. Con varios proyectos móviles en mi portafolio, me enfoco en entregar productos de alta calidad, eficientes y con una excelente experiencia de usuario."
+  },
+  "contact": {
+    "title": "¡Convirtamos tu visión en realidad!",
+    "subtitle": "Estoy listo para impulsar tu proyecto o sumarme a tu equipo"
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Diseñado con",
+      "designed_by": "por"
+    },
+    "developed": {
+      "developed_with": "Hecho con",
+      "developed_by": "por"
+    }
+  }
+}
