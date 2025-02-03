@@ -1,0 +1,129 @@
+{
+  "title": "Manuel Concoba",
+  "description": "Full-Stack Developer from Guatemala, specializing in multiplatform web and mobile development, with experience in creating scalable applications, robust APIs, and managing SQL and NoSQL databases. Passionate about building innovative and efficient technological solutions.",
+  "navbar": [
+    {
+      "label": "Home",
+      "href": "#top"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    },
+    {
+      "label": "About Me",
+      "href": "#about-me"
+    }
+  ],
+  "hero": {
+    "job_availability": "Available for work!",
+    "title": "Hello, I'm Manuel Concoba!",
+    "job_title": "<strong>Full-Stack Developer</strong> from Guatemala.",
+    "description": "Specializing in multiplatform web and mobile development, with experience in creating scalable applications, robust APIs, and managing SQL and NoSQL databases. Passionate about building innovative and efficient technological solutions.",
+    "cta": "Contact Me"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "jobs": {
+      "jobs_title": ["Middle Developer", "Junior Developer", "Freelance"],
+      "jobs_description": [
+        {
+          "title": "Mobile and Web Applications Developer",
+          "time": ["Nov 2023"],
+          "description": "I lead and manage web and mobile development projects, ensuring their delivery on time and within budget. I directed a team of junior developers, providing mentorship and technical support for their professional growth. Additionally, I oversaw the app publishing process on iOS and Android, ensuring compliance with platform regulations.",
+          "list": [
+            "Website design",
+            "Website optimization",
+            "Mobile development (Android / iOS)",
+            "Version control"
+          ]
+        },
+        {
+          "title": "Web Developer in Angular/Ionic",
+          "time": ["Nov 2020", "Nov 2023"],
+          "description": "I provided technical support by managing and resolving tickets, optimizing response times, and improving user satisfaction. I performed maintenance and updates on applications, fixing bugs and improving their performance. Additionally, I participated in the design and development of new features, ensuring compliance with business requirements.",
+          "list": ["Website design", "Website optimization"]
+        },
+        {
+          "title": "Frontend Developer",
+          "time": ["Jan 2024"],
+          "description": "I design and develop websites and mobile applications with a focus on performance, security, and user experience. As a freelance developer, I optimize digital platforms, improving their speed and usability. Additionally, I implement scalable and efficient solutions, ensuring the achievement of business objectives.",
+          "list": ["Website design", "Website optimization"]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Modern Angular Template",
+        "description": "A modern and responsive template developed in Angular, designed to streamline the creation of web applications. It includes reusable components, integrated authentication, and an attractive Bootstrap-based design. Deployed on Firebase to demonstrate its scalability and ease of use. \n User: admin \n Password: admin123",
+        "image": "/src/images/projects/template.png",
+        "techs": ["Angular", "Bootstrap", "CSS", "Firebase"],
+        "code": "Code",
+        "code_url": "https://github.com/MConcoba/Template-Angular",
+        "preview": "Preview",
+        "preview_url": "https://template-angular-lovat.vercel.app/authentication/side-login"
+      },
+      {
+        "title": "Currency Exchange",
+        "description": "A web application developed in Python with Dash to visualize and calculate real-time exchange rates. It allows users to compare currencies and make informed decisions based on updated data. Deployed on Render to ensure availability and performance.",
+        "image": "/src/images/projects/exchanges-rates.png",
+        "techs": ["Python", "Dash", "JavaScript"],
+        "code": "Code",
+        "code_url": "https://github.com/MConcoba/Exchange-Rates-Web/tree/main",
+        "preview": "Preview",
+        "preview_url": "https://exchange-rates-web.onrender.com"
+      },
+      {
+        "title": "Barcode Scanner App",
+        "description": "A mobile application developed in Flutter to scan and manage barcodes. Ideal for inventory management, product tracking, or access control. It includes features such as local storage and a user-friendly interface for Android.",
+        "image": "/src/images/projects/locations-app.png",
+        "techs": ["Flutter", "Android"],
+        "code": "Code",
+        "code_url": "https://github.com/MConcoba/Ubicaciones-App-Handle",
+        "preview": "Preview",
+        "preview_url": "https://drive.google.com/file/d/1OMSVdGz3M2V7ucdVMXh3vnU7siSE9CWw/view?usp=sharing"
+      }
+    ]
+  },
+  "contributions": {
+    "title": "Contributions",
+    "contributions": [
+      {
+        "src": "/src/images/contributions/devmanual.png",
+        "alt": "DevManualGT",
+        "title": "YouTube Channel",
+        "description": "I run a YouTube channel where I share free programming tutorials and basic courses, aimed at helping beginners take their first steps in the world of software development. My content covers topics such as web development, mobile applications, and database management, using technologies like Angular, Flutter, Node.js, and more. Join me to learn in a simple and practical way!",
+        "techs": ["NodeJS", "MongoDB", "Postgres", "Angular", "CSS", "SASS"],
+        "repo": "https://www.youtube.com/@devmanualgt",
+        "repo_label": "Link",
+        "commits": "#"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "I am a Full-Stack Developer",
+    "description": "Specializing in multiplatform web and mobile development with technologies like Flutter, TypeScript/JavaScript (Angular, React, Node.js), and Python. I have experience in creating scalable applications, robust APIs, and managing SQL and NoSQL databases. I am passionate about building innovative technological solutions that solve real problems and improve people's lives. With several mobile projects in my portfolio, I focus on delivering high-quality, efficient products with an excellent user experience."
+  },
+  "contact": {
+    "title": "Let's turn your vision into reality!",
+    "subtitle": "I'm ready to boost your project or join your team"
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Designed with",
+      "designed_by": "by"
+    },
+    "developed": {
+      "developed_with": "Built with",
+      "developed_by": "by"
+    }
+  }
+}
